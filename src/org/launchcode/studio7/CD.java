@@ -1,6 +1,11 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends Disc{
+    @Override
+    public String spinDisc() {
+        System.out.println("A CD spins at the rate of 200 - 500 rpm.");
+        return null;
+    }
 
     // TODO: Implement your custom interface.
 
